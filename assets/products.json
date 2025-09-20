@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "name": "Cocoa Peat",
+    "description": "High-quality growing medium made from coconut husk fibers, ideal for horticulture and potting mixes.",
+    "category": "Growing Media",
+    "image": "assets/products/cocopeat.jpg",
+    "specs": {
+      "Moisture": "10–15%",
+      "pH": "5.5–6.5",
+      "EC": "< 0.5 mS/cm",
+      "CompressionRatio": "4:1",
+      "BaleSizeKg": 5
+    },
+    "location": "India"
+  },
+  {
+    "id": 2,
+    "name": "Coconut Coir Fiber",
+    "description": "Durable natural fiber extracted from coconut husks, suitable for mats, ropes, brushes and erosion control.",
+    "category": "Fibers",
+    "image": "assets/products/coirfiber.jpg",
+    "specs": {
+      "Length": "5–25 cm",
+      "Color": "Golden Brown",
+      "Impurities": "< 3%",
+      "BaleWeightKg": 100
+    },
+    "location": "India"
+  },
+  {
+    "id": 3,
+    "name": "Coconut Husk Chips",
+    "description": "Natural chips used as mulch and soil conditioner, ideal for orchids and hydroponics.",
+    "category": "Soil Conditioner",
+    "image": "assets/products/huskchips.jpg",
+    "specs": {
+      "ChipSizeMm": "5–15",
+      "Moisture": "10%",
+      "SaltEC": "< 0.6 mS/cm"
+    },
+    "location": "India"
+  },
+  {
+    "id": 4,
+    "name": "Grow Bags",
+    "description": "Biodegradable grow bags made from coco peat and coir fiber for sustainable farming.",
+    "category": "Accessories",
+    "image": "assets/products/growbags.jpg",
+    "specs": {
+      "DiameterCm": 25,
+      "HeightCm": 35,
+      "Material": "Coco Peat + Coir Fiber"
+    },
+    "location": "India"
+  },
+  {
+    "id": 5,
+    "name": "Organic Fertilizer",
+    "description": "Eco-friendly fertilizer from natural organics for improving soil fertility and structure.",
+    "category": "Fertilizer",
+    "image": "assets/products/organicfertilizer.jpg",
+    "specs": {
+      "Nitrogen": "2%",
+      "Phosphorus": "1.5%",
+      "Potassium": "2.5%",
+      "BagWeightKg": 25
+    },
+    "location": "India"
+  },
+  {
+    "id": 6,
+    "name": "Sample Product 1",
+    "description": "Placeholder description for a configurable product. Replace image and details later.",
+    "category": "Samples",
+    "image": "assets/products/sample1.jpg",
+    "specs": {
+      "UnitWeightKg": 20,
+      "BlockSizeCm": "30 x 30 x 12",
+      "MOQ": "1 pallet"
+    },
+    "location": "India"
+  },
+  {
+    "id": 7,
+    "name": "Sample Product 2",
+    "description": "Another sample entry with richer specs for demo purposes.",
+    "category": "Samples",
+    "image": "assets/products/sample2.jpg",
+    "specs": {
+      "UnitWeightKg": 10,
+      "DimensionsCm": "40 x 25 x 10",
+      "Packaging": "Shrink-wrapped"
+    },
+    "location": "India"
+  }
+]

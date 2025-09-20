@@ -1,0 +1,93 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact • RB Exports</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/config.js"></script>
+</head><body>
+<header class='site-header'>
+  <div class='container header-inner'>
+    <a class='brand' href='index.html'>
+      <img src='assets/images/logo.png' class='logo-img' alt='RB Logo'>
+      <span class='brand-name'>RB Exports</span>
+    </a>
+    <nav class='main-nav' id='nav'>
+      <a href='index.html'>Home</a>
+      <a href='products.html'>Products</a>
+      <a href='about.html'>About</a>
+      <a href='blog.html'>Insights</a>
+      <a href='contact.html'>Contact</a>
+      <a href='admin.html' class='muted small'>Admin</a>
+      <div class='nav-tools'>
+        <button class='btn ghost small' id='btnUnit'>Metric</button>
+        <button class='btn ghost small' id='btnTheme'>🌙</button>
+      </div>
+    </nav>
+    <button class='nav-toggle' id='navToggle'>☰</button>
+  </div>
+</header>
+
+<main>
+  <section class='container contact-wrap'>
+    <h1>Contact Us</h1>
+    <p class='muted'>Tell us about your requirements. We’ll get back within 1 business day.</p>
+    <div class='contact-grid'>
+      <form id='contactForm' class='card big-form'>
+        <div class='form-row'>
+          <label>Full Name<span>*</span><input name='name' required placeholder='Your name'></label>
+          <label>Email<span>*</span><input name='email' type='email' required placeholder='you@company.com'></label>
+        </div>
+        <div class='form-row'>
+          <label>Country<span>*</span><input name='country' required placeholder='e.g., USA'></label>
+          <label>Product<select name='product'><option value=''>Select a product</option></select></label>
+        </div>
+        <label>Message<span>*</span><textarea name='message' rows='6' required placeholder='Describe quantities, specs, delivery timeline...'></textarea></label>
+        <div class='form-actions'>
+          <button type='submit' class='btn primary'>Send Message</button>
+          <a id='contactWA' class='btn outline' target='_blank'>Chat on WhatsApp</a>
+        </div>
+        <p id='formStatus' class='muted small'></p>
+      </form>
+      <div class='panel'>
+        <h3>Other ways to reach us</h3>
+        <p>Email: <a href='mailto:info@rb-exports.example'>info@rb-exports.example</a><br>Phone/WA: +91 98765 43210</p>
+        <h4>Why buyers choose RB</h4>
+        <ul class='ticks'>
+          <li>Transparent QC metrics (pH, EC, moisture)</li>
+          <li>Export documentation support</li>
+          <li>Reliable lead times</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class='site-footer'>
+  <div class='container footer-grid'>
+    <div>
+      <h4>RB Exports</h4>
+      <p class='muted'>Premium cocoa peat & sustainable substrates from India.</p>
+      <a class='wa-inline' id='waLink' target='_blank'><img src='assets/icons/whatsapp.png' alt='WhatsApp'> Chat on WhatsApp</a>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul class='unstyled'>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href='products.html'>Products</a></li>
+        <li><a href='about.html'>About</a></li>
+        <li><a href='blog.html'>Insights</a></li>
+        <li><a href='contact.html'>Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <ul class='unstyled'>
+        <li><a href='privacy.html'>Privacy</a></li>
+        <li><a href='terms.html'>Terms</a></li>
+      </ul>
+      <p class='small muted'>© <span id='year'></span> RB Exports. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<a class='wa-cta' id='waFab' target='_blank' title='WhatsApp'>💬</a>
+<script src="assets/js/app.js"></script>
+</body></html>
